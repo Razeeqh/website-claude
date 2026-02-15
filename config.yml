@@ -1,0 +1,20 @@
+# Website Configuration
+# Edit this file to update contact information displayed on the website
+
+contact:
+  office: "123 Design Street, Suite 400, New York, NY 10001"
+  phone: "+1 (555) 123-4567"
+  email: "hello@contemporaryinteriors.com"
+  hours: "Monday - Friday: 9:00 AM - 6:00 PM"
+
+# Social Media Links (optional)
+social:
+  instagram: "https://instagram.com/yourcompany"
+  pinterest: "https://pinterest.com/yourcompany"
+  linkedin: "https://linkedin.com/company/yourcompany"
+
+# Company Information
+company:
+  name: "Contemporary Interiors"
+  tagline: "Transforming Spaces into Works of Art"
+  description: "With over a decade of experience in contemporary interior design, we specialize in creating spaces that blend functionality with aesthetic excellence."

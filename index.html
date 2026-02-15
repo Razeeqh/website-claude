@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contemporary Interiors - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>Contemporary Interiors</h1>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Transforming Spaces into<br>Works of Art</h2>
+            <p class="hero-subtitle">Contemporary interior design for modern living</p>
+            <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Us</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Crafting Timeless Interiors</h3>
+                    <p>With over a decade of experience in contemporary interior design, we specialize in creating spaces that blend functionality with aesthetic excellence. Our approach combines modern design principles with your unique vision to deliver interiors that inspire.</p>
+                    <p>Every project is an opportunity to push creative boundaries while maintaining the highest standards of quality and craftsmanship. We believe that great design is not just about how a space looks, but how it makes you feel.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>150+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>98%</h4>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="500" fill="#e8e8e8"/>
+                            <text x="50%" y="50%" text-anchor="middle" fill="#999" font-size="20" font-family="Arial">Studio Image</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Portfolio</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Explore our latest interior design projects</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Portfolio items will be loaded from JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Comprehensive interior design solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <rect x="10" y="15" width="40" height="30" stroke="currentColor" stroke-width="2"/>
+                            <line x1="15" y1="20" x2="45" y2="20" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Space Planning</h3>
+                    <p>Optimized layouts that maximize functionality and flow while maintaining aesthetic appeal.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="30" cy="30" r="20" stroke="currentColor" stroke-width="2"/>
+                            <path d="M30 15 L30 30 L40 35" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Full Renovations</h3>
+                    <p>Complete interior transformations from concept to completion with expert project management.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <rect x="15" y="20" width="30" height="25" stroke="currentColor" stroke-width="2"/>
+                            <rect x="20" y="15" width="20" height="5" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Custom Furniture</h3>
+                    <p>Bespoke furniture design and sourcing to perfectly complement your space.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <path d="M15 25 L30 15 L45 25 L45 45 L15 45 Z" stroke="currentColor" stroke-width="2"/>
+                            <rect x="25" y="30" width="10" height="15" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Consultation</h3>
+                    <p>Expert design advice and guidance to help you make informed decisions about your space.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="25" cy="25" r="10" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="40" cy="35" r="7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Color Schemes</h3>
+                    <p>Professional color consultation to create the perfect palette for your interior.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <path d="M20 40 L20 20 L40 20 L40 40" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="30" cy="25" r="3" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Lighting Design</h3>
+                    <p>Strategic lighting solutions that enhance ambiance and functionality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Let's discuss your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" id="contactInfo">
+                    <!-- Contact information will be loaded from config.yml -->
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contemporary Interiors</h3>
+                    <p>Creating beautiful spaces that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Pinterest">Pinterest</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Contemporary Interiors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
